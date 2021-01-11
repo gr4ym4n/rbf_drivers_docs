@@ -1,5 +1,5 @@
 
-<p style="text-align:center"><img src="/img/banner.jpg" alt="Banner"/></p>
+<p style="text-align:center"><img src="img/banner.jpg" alt="Banner"/></p>
 
 This guide will walk you through RBF Drivers, an add-on for
 <a href="https://www.blender.org" target="_blank">Blender</a>

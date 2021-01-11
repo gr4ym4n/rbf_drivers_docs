@@ -1,7 +1,7 @@
 # Getting Help
 
-In the first instance, you should get in touch through whichever third-party service you used to
-purchase RBF Drivers.
+You can get in touch through whichever third-party service you used to purchase RBF Drivers, or
+alternatively use the [Discord support server](https://discord.gg/y6jTAURSj2).
 
 ## Bugs
 

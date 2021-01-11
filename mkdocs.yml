@@ -1,0 +1,19 @@
+site_name: RBF Drivers
+theme:
+  name: 'rtd-dropdown'
+markdown_extensions:
+  - admonition
+nav:
+  - RBF Drivers: index.md
+  - User Guide:
+    - Overview: user-guide/overview.md
+    - Installation: user-guide/installation.md
+    - Quick-Start: user-guide/quick-start.md
+    - Managing Drivers: user-guide/managing-drivers.md
+    - RBF Settings: user-guide/rbf-settings.md
+    - Inputs: user-guide/inputs.md
+    - Driven Properties: user-guide/driven-properties.md
+    - Poses: user-guide/poses.md
+    - Use-Cases: user-guide/use-cases.md
+    - FAQ: user-guide/faq.md
+    - Getting Help: user-guide/getting-help.md

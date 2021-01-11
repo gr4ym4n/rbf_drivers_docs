@@ -4,11 +4,11 @@ The Inputs section of the RBF Drivers panel is where you select which transform 
 on the pose bone you want to use to drive things. You can select from location, rotation and
 scale channels, or any combination thereof.
 
-<p style="text-align:center"><img src="img/inputs.jpg" alt="Minimum precision setting"/></p>
+<p style="text-align:center"><img src="../../img/inputs.jpg" alt="Minimum precision setting"/></p>
 
 ## Rotation Modes
 
-<p style="text-align:center"><img src="img/inputs_rmode.jpg" alt="Minimum precision setting"/></p>
+<p style="text-align:center"><img src="../../img/inputs_rmode.jpg" alt="Minimum precision setting"/></p>
 
 All of <a href="https://docs.blender.org/manual/en/latest/animation/drivers/drivers_panel.html#rotation-channel-modes" target="_blank">
 Blender's driver rotation modes</a> are also available for RBF drivers. This includes the

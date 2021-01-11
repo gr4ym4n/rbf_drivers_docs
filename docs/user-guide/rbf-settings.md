@@ -3,54 +3,54 @@
 The RBF Settings section of the RBF Drivers panel is where you control how the selected RBF
 Driver interpolates between all your poses.
 
-<p style="text-align:center"><img src="img/rbfsettings.jpg" alt="RBF Settings"/></p>
+<p style="text-align:center"><img src="../../img/rbfsettings.jpg" alt="RBF Settings"/></p>
 
 ___________________________________________________________________________________________________
 
 ## Interpolation
 
 Each of the available interpolation types will change how closely the
-[driven properties](./user-guide/driven-properties) stick to the [poses](./user-guide/poses)
+[driven properties](../driven-properties) stick to the [poses](../poses)
 you have defined, as well as how smoothly and quickly they transition between then. You don't
 need to know how each of them works, you can simply select which one works best for you by
 switching between them and playing around in the viewport.
 
-<p style="text-align:center"><img src="img/rbfsettings_ipo.jpg" alt="Interpolation setting"/></p>
+<p style="text-align:center"><img src="../../img/rbfsettings_ipo.jpg" alt="Interpolation setting"/></p>
 
 ### Linear
 
-Linear interpolation will simply transition linearly between the [poses](./user-guide/poses)
-based on the current [inputs](./user-guide/inputs). The
-[driven properties](./user-guide/driven-properties) will remain very close to the defined
-[poses](./user-guide/poses). This works well when you want a very tight fit to your data points,
+Linear interpolation will simply transition linearly between the [poses](../poses)
+based on the current [inputs](../inputs). The
+[driven properties](../driven-properties) will remain very close to the defined
+[poses](../poses). This works well when you want a very tight fit to your data points,
 particularly for smaller data sets.
 
 ### Gaussian
 
 The gaussian option will provide a smooth, bell-shaped curve, easing the transitions between poses
 in and out. It's often a good choice if your data points are somewhat scattered. You can affect the
-transition timing by changing the [radius](#radius) setting, or providing a custom
-[radius](#radius) for complete control.
+transition timing by changing the [radius](../#radius) setting, or providing a custom
+[radius](../#radius) for complete control.
 
 ### Multi-Quadratic Biharmonic
 
 Multi-quadratic biharmonic interpolation generally provides a nice median between the smooth
-characteristics of [gaussian](#gaussian) and strictness of [linear](#linear) and is the default
+characteristics of [gaussian](../#gaussian) and strictness of [linear](../#linear) and is the default
 setting. Your mileage may vary depending on your data set but it's usually my preferred option.
 
 ### Inverse Multi-Quadratic Biharmonic
 
 Inverse multi-quadratic biharmonic offers a slight variant on
-[multi-quadratic biharmonic](#multi-quadratic-biharmonic), pushing things a bit further at the ends.
+[multi-quadratic biharmonic](../#multi-quadratic-biharmonic), pushing things a bit further at the ends.
 
 ___________________________________________________________________________________________________
 
 ## Radius
 
-<p style="text-align:center"><img src="/img/rbfsettings_rad.jpg" alt="Radius setting"/></p>
+<p style="text-align:center"><img src="../../img/rbfsettings_rad.jpg" alt="Radius setting"/></p>
 
 !!! Note
-    The radius setting will *not* show when [interpolation](#interpolation) is set to [Linear](#linear)
+    The radius setting will *not* show when [interpolation](../#interpolation) is set to [Linear](../#linear)
 
 ### Mean
 
@@ -73,7 +73,7 @@ interpolation functions work but feel to play around providing different values 
 effect.
 
 !!! Note
-    When using a [custom radius](#custom), each time you update the radius value the RBF network
+    When using a [custom radius](../#custom), each time you update the radius value the RBF network
     data needs to be recalculated and the drivers recreated. This is not a small task, and with
     complex drivers you may notice a slight lag in the interface when sliding the radius value.
 
@@ -81,10 +81,10 @@ ________________________________________________________________________________
 
 ## Smoothing
 
-<p style="text-align:center"><img src="/img/rbfsettings.jpg" alt="Smoothing setting"/></p>
+<p style="text-align:center"><img src="../../img/rbfsettings.jpg" alt="Smoothing setting"/></p>
 
 Increasing the smoothing value will relax the fit of the
-[driven properties](.//user-guide/driven-properties) to the [poses](.//user-guide/poses), essentially
+[driven properties](../driven-properties) to the [poses](../poses), essentially
 increasing the visual effect of the interpolation. Under most circumstances the interpolation
 alone will provide pleasing results, but do play around with the smoothing to become familiar
 with its effect.
@@ -98,7 +98,7 @@ ________________________________________________________________________________
 
 ## Min. Precision
 
-<p style="text-align:center"><img src="/img/rbfsettings_prec.jpg" alt="Minimum precision setting"/></p>
+<p style="text-align:center"><img src="../../img/rbfsettings_prec.jpg" alt="Minimum precision setting"/></p>
 
 !!! Note
     This setting will only take effect for relatively complex driver setups.

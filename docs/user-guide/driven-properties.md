@@ -45,7 +45,7 @@ is selected the transform channel on the object itself will be driven.
     path. 
 
 !!! Note
-    Unlike [inputs](user-guide/inputs#rotation-modes), the rotation modes available for driving
+    Unlike [inputs](./user-guide/inputs#rotation-modes), the rotation modes available for driving
     rotation channels are limited to **Euler**, **Quaternion** and **Axis/Angle** to match the
     types of rotation properties available for objects and bones. The rotation mode of the
     driven property should almost always correspond to the rotatation mode of the object or bone

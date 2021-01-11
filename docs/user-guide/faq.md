@@ -1,5 +1,5 @@
 
-If you don't find the answer to your question below, [get in touch](user-guide/getting-help).
+If you don't find the answer to your question below, [get in touch](./user-guide/getting-help).
 
 ## General
 
@@ -22,8 +22,8 @@ RBF driver there may be one or more properties defined.
 
 These properties are necessary for RBF driver to work and they shouldn't be deleted or edited
 directly unless you are sure you know what you're doing. If you do accidentally mess something
-up, you can click the [update button](user-guide/managing-drivers#rebuilding-drivers) to the
-right of the [list of RBF Drivers](user-guide/managing-drivers#the-drivers-list) to rebuild
+up, you can click the [update button](./user-guide/managing-drivers#rebuilding-drivers) to the
+right of the [list of RBF Drivers](./user-guide/managing-drivers#the-drivers-list) to rebuild
 the properties for that RBF Driver.
 
 <p style="text-align:center"><img src="img/rbfdriver_update_btn.jpg" alt="Update Button" width="400"/></p>
@@ -38,7 +38,7 @@ RBF Drivers are designed to take advantage of Blender's native capabilities and 
 the tools Blender already provides. Nevertheless they are somewhat complex and each RBF Driver
 needs to make a few intermediate calculations to produce the final result. In order to achieve
 this it will create a couple of extra array properties and drive the elements of those properties,
-which in turn will drive the [driven properties](user-guide/driven-properties) you defined in the
+which in turn will drive the [driven properties](./user-guide/driven-properties) you defined in the
 RBF driver.
 
 ___________________________________________________________________________________________________
@@ -64,7 +64,7 @@ be used sparingly.
 Because RBF driver consolidates everything down to native Blender drivers, it needs to fit certain
 calculations into driver expressions, which are limited within Blender to having a maximum length
 of 256 characters. RBF Drivers do their very best to pack as much as possible into an expression
-by reducing floating-point precision (according to your [settings](user-guide/rbf-settings)) and
+by reducing floating-point precision (according to your [settings](./user-guide/rbf-settings)) and
 storing values in properties and referencing them with variables where necessary. Nevertheless,
 eventually these expressions can grow beyond the aforementioned limits, in the unlikely event that
 this happens the RBF driver will fail to update and you will be notified that an expression is too

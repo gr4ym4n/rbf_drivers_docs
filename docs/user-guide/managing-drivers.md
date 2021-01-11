@@ -25,9 +25,9 @@ with the currently selected RBF driver highlighted. You can create additional dr
 
 !!! Note
     You will probably notice that when you add a new driver it is highlighted in red. In order to
-    function the driver needs to have at least one [input property](user-guide/inputs), at least
-    one valid [driven property](user-guide/driven-properties), and at least two valid 
-    [poses](user-guide/poses). Once these have been defined, the red highlight will be removed.
+    function the driver needs to have at least one [input property](./user-guide/inputs), at least
+    one valid [driven property](./user-guide/driven-properties), and at least two valid 
+    [poses](./user-guide/poses). Once these have been defined, the red highlight will be removed.
 
 The list of RBF drivers follows Blender's usual user interface standards so it should be mostly
 self-explanatory. You can add or remove drivers, move them up or down within the list, and double

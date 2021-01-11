@@ -6,7 +6,7 @@ serve to get you up and running quickly and give you an intuitive understanding 
 
 ## Setting up the scene
 
-Once you've got RBF Drivers [installed](user-guide/installation), open up Blender and delete the
+Once you've got RBF Drivers [installed](./user-guide/installation), open up Blender and delete the
 default camera and light by selecting them in viewport and hitting **x**, or by selecting them in
 the outliner and choosing **Delete** from the context menu. You can leave the default cube where
 it is.
@@ -41,8 +41,8 @@ create a new RBF driver.
 !!! Note
     You might notice that the RBF driver we just created is highlighted in red. This is just to let
     you know that it's not yet operational because we haven't defined any
-    [inputs](user-guide/inputs), [driven properties](user-guide/driven-properties) or
-    [poses](user-guide/poses) yet. We're going to fix that next.
+    [inputs](./user-guide/inputs), [driven properties](./user-guide/driven-properties) or
+    [poses](./user-guide/poses) yet. We're going to fix that next.
 
 ___________________________________________________________________________________________________
 
@@ -77,12 +77,12 @@ ________________________________________________________________________________
 
 ## Adding Poses
 
-Now that we've told the RBF driver what [inputs](/user-guide/inputs) we're using, and what properties
-we want to be driven, we're ready to define [poses](/user-guide/poses) for it to follow.
+Now that we've told the RBF driver what [inputs](.//user-guide/inputs) we're using, and what properties
+we want to be driven, we're ready to define [poses](.//user-guide/poses) for it to follow.
 
 Our first pose will define our starting point, which is just how things are, so go ahead and click the
 **+** button next to the **Poses** list at the bottom of the
-[RBF Drivers panel](/user-guide/managing-drivers/). A *Rest* pose will appear in the list.
+[RBF Drivers panel](.//user-guide/managing-drivers/). A *Rest* pose will appear in the list.
 
 <p style="text-align:center"><img src="/img/quickstart_007.jpg" alt="Quick start scene setup 7"/></p>
 
@@ -96,10 +96,10 @@ so we can keep them both in view. I ended up with the scene below.
 Reselect the armature object, put it back into pose mode and ensure that the bone is selected.
 Go back to the the **Poses list** and add a second pose.
 
-At this point we can review our [poses](/user-guide/poses) using the
-[**Apply**](/user-guide/poses/#viewing-and-updating-poses) button next to the list of
-[poses](/user-guide/poses). Go ahead and select a pose in the list and click
-[**Apply**](/user-guide/poses/#viewing-and-updating-poses) to view it in the 3D viewport.
+At this point we can review our [poses](.//user-guide/poses) using the
+[**Apply**](.//user-guide/poses/#viewing-and-updating-poses) button next to the list of
+[poses](.//user-guide/poses). Go ahead and select a pose in the list and click
+[**Apply**](.//user-guide/poses/#viewing-and-updating-poses) to view it in the 3D viewport.
 
 <p style="text-align:center"><img src="/img/quickstart_009.jpg" alt="Quick start scene setup 9"/></p>
 
@@ -128,6 +128,6 @@ between the poses you defined:
 <img src="/img/quickstart_010.gif" alt="Quick start scene setup 11"/>
 </p>
 
-Now's a good time to play around with the [RBF settings](/user-guide/rbf-settings). Try adjusting
-the [interpolation](/user-guide/rbf-settings#interpolation) and
-[smoothing](/user-guide/rbf-settings#smoothing) to see what they do.
+Now's a good time to play around with the [RBF settings](.//user-guide/rbf-settings). Try adjusting
+the [interpolation](.//user-guide/rbf-settings#interpolation) and
+[smoothing](.//user-guide/rbf-settings#smoothing) to see what they do.

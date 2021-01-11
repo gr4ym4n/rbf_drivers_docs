@@ -10,7 +10,7 @@ ________________________________________________________________________________
 ## Interpolation
 
 Each of the available interpolation types will change how closely the
-[driven properties](user-guide/driven-properties) stick to the [poses](user-guide/poses)
+[driven properties](./user-guide/driven-properties) stick to the [poses](./user-guide/poses)
 you have defined, as well as how smoothly and quickly they transition between then. You don't
 need to know how each of them works, you can simply select which one works best for you by
 switching between them and playing around in the viewport.
@@ -19,10 +19,10 @@ switching between them and playing around in the viewport.
 
 ### Linear
 
-Linear interpolation will simply transition linearly between the [poses](user-guide/poses)
-based on the current [inputs](user-guide/inputs). The
-[driven properties](user-guide/driven-properties) will remain very close to the defined
-[poses](user-guide/poses). This works well when you want a very tight fit to your data points,
+Linear interpolation will simply transition linearly between the [poses](./user-guide/poses)
+based on the current [inputs](./user-guide/inputs). The
+[driven properties](./user-guide/driven-properties) will remain very close to the defined
+[poses](./user-guide/poses). This works well when you want a very tight fit to your data points,
 particularly for smaller data sets.
 
 ### Gaussian
@@ -84,7 +84,7 @@ ________________________________________________________________________________
 <p style="text-align:center"><img src="/img/rbfsettings.jpg" alt="Smoothing setting"/></p>
 
 Increasing the smoothing value will relax the fit of the
-[driven properties](/user-guide/driven-properties) to the [poses](/user-guide/poses), essentially
+[driven properties](.//user-guide/driven-properties) to the [poses](.//user-guide/poses), essentially
 increasing the visual effect of the interpolation. Under most circumstances the interpolation
 alone will provide pleasing results, but do play around with the smoothing to become familiar
 with its effect.

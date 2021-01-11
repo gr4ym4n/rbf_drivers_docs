@@ -8,7 +8,7 @@ Don't unzip the file, instead open Blender and then open the preferences from th
 Select the **Add-ons** pane from the menu on the left and click the **Install** button.
 Navigate to the location of the downloaded zip file and click **Install Add-on**.
 
-Find the **RBF Drivers** add-on in the list of add-ons (it's in the Animation category) and
+Find the **RBF Drivers** add-on in the list of add-ons (it's in the Rigging category) and
 check the box next to it to enable the add-on.
 
 <p style="text-align:center"><img src="../../img/install_addon.jpg" alt="Preferences pane"/></p>

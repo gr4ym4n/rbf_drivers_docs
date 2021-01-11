@@ -3,26 +3,26 @@
 The RBF Settings section of the RBF Drivers panel is where you control how the selected RBF
 Driver interpolates between all your poses.
 
-<p style="text-align:center"><img src="/img/rbfsettings.jpg" alt="RBF Settings"/></p>
+<p style="text-align:center"><img src="img/rbfsettings.jpg" alt="RBF Settings"/></p>
 
 ___________________________________________________________________________________________________
 
 ## Interpolation
 
 Each of the available interpolation types will change how closely the
-[driven properties](/user-guide/driven-properties) stick to the [poses](/user-guide/poses)
+[driven properties](user-guide/driven-properties) stick to the [poses](user-guide/poses)
 you have defined, as well as how smoothly and quickly they transition between then. You don't
 need to know how each of them works, you can simply select which one works best for you by
 switching between them and playing around in the viewport.
 
-<p style="text-align:center"><img src="/img/rbfsettings_ipo.jpg" alt="Interpolation setting"/></p>
+<p style="text-align:center"><img src="img/rbfsettings_ipo.jpg" alt="Interpolation setting"/></p>
 
 ### Linear
 
-Linear interpolation will simply transition linearly between the [poses](/user-guide/poses)
-based on the current [inputs](/user-guide/inputs). The
-[driven properties](/user-guide/driven-properties) will remain very close to the defined
-[poses](/user-guide/poses). This works well when you want a very tight fit to your data points,
+Linear interpolation will simply transition linearly between the [poses](user-guide/poses)
+based on the current [inputs](user-guide/inputs). The
+[driven properties](user-guide/driven-properties) will remain very close to the defined
+[poses](user-guide/poses). This works well when you want a very tight fit to your data points,
 particularly for smaller data sets.
 
 ### Gaussian

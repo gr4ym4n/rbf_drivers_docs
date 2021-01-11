@@ -11,7 +11,7 @@ ________________________________________________________________________________
 
 ## Driven Property Types
 
-<p style="text-align:center"><img src="/img/drivenprop_type.jpg" alt="Driven property types"/></p>
+<p style="text-align:center"><img src="img/drivenprop_type.jpg" alt="Driven property types"/></p>
 
 Much like
 <a href="https://docs.blender.org/manual/en/latest/animation/drivers/drivers_panel.html#driver-variables" target="_blank">
@@ -20,7 +20,7 @@ You can also provide a useful name for the property to help you keep track of th
 
 ### Single Property
 
-<p style="text-align:center"><img src="/img/drivenprop_singleprop.jpg" alt="Driven property single property type"/></p>
+<p style="text-align:center"><img src="img/drivenprop_singleprop.jpg" alt="Driven property single property type"/></p>
 
 The **Single Property** type allows you to set a path to any of Blender's properties
 (though it will need to be an integer, boolean or float property to be driven). The simplest way to
@@ -33,7 +33,7 @@ red.
 
 ### Transform Channel
 
-<p style="text-align:center"><img src="/img/drivenprop_xformchan.jpg" alt="Driven property transform channel type"/></p>
+<p style="text-align:center"><img src="img/drivenprop_xformchan.jpg" alt="Driven property transform channel type"/></p>
 
 Selecting **Transform Channel** allows you to choose a transform channel to drive. If you select
 an armature object, you can (optionally) drive a transform channel of a pose bone. If no bone
@@ -45,7 +45,7 @@ is selected the transform channel on the object itself will be driven.
     path. 
 
 !!! Note
-    Unlike [inputs](/user-guide/inputs#rotation-modes), the rotation modes available for driving
+    Unlike [inputs](user-guide/inputs#rotation-modes), the rotation modes available for driving
     rotation channels are limited to **Euler**, **Quaternion** and **Axis/Angle** to match the
     types of rotation properties available for objects and bones. The rotation mode of the
     driven property should almost always correspond to the rotatation mode of the object or bone

@@ -6,17 +6,17 @@ serve to get you up and running quickly and give you an intuitive understanding 
 
 ## Setting up the scene
 
-Once you've got RBF Drivers [installed](/user-guide/installation), open up Blender and delete the
+Once you've got RBF Drivers [installed](user-guide/installation), open up Blender and delete the
 default camera and light by selecting them in viewport and hitting **x**, or by selecting them in
 the outliner and choosing **Delete** from the context menu. You can leave the default cube where
 it is.
 
-<p style="text-align:center"><img src="/img/quickstart_001.jpg" alt="Quick start scene setup 1"/></p>
+<p style="text-align:center"><img src="img/quickstart_001.jpg" alt="Quick start scene setup 1"/></p>
 
 Add an armature object to the scene (**shift-a** or **Add** menu > **Armature**), and move it
 out of the way so you can see it beside the cube. 3 units along the Y-axis should do the trick.
 
-<p style="text-align:center"><img src="/img/quickstart_002.jpg" alt="Quick start scene setup 2"/></p>
+<p style="text-align:center"><img src="img/quickstart_002.jpg" alt="Quick start scene setup 2"/></p>
 
 ___________________________________________________________________________________________________
 
@@ -29,20 +29,20 @@ Since RBF drivers are attached to pose bones, we need to have the bone selected 
 Select the armature object, put it into pose mode, and ensure the bone is active by clicking on it
 in the viewport.
 
-<p style="text-align:center"><img src="/img/quickstart_003.jpg" alt="Quick start scene setup 3"/></p>
+<p style="text-align:center"><img src="img/quickstart_003.jpg" alt="Quick start scene setup 3"/></p>
 
 Now select the **Bone Properties** panel, find the **RBF Drivers** section and click **Add** to
 create a new RBF driver.
 
-<p style="text-align:center"><img src="/img/quickstart_004.jpg" alt="Quick start scene setup 4"/></p>
+<p style="text-align:center"><img src="img/quickstart_004.jpg" alt="Quick start scene setup 4"/></p>
 
-<p style="text-align:center"><img src="/img/quickstart_004b.jpg" alt="Quick start scene setup 4"/></p>
+<p style="text-align:center"><img src="img/quickstart_004b.jpg" alt="Quick start scene setup 4"/></p>
 
 !!! Note
     You might notice that the RBF driver we just created is highlighted in red. This is just to let
     you know that it's not yet operational because we haven't defined any
-    [inputs](/user-guide/inputs), [driven properties](/user-guide/driven-properties) or
-    [poses](/user-guide/poses) yet. We're going to fix that next.
+    [inputs](user-guide/inputs), [driven properties](user-guide/driven-properties) or
+    [poses](user-guide/poses) yet. We're going to fix that next.
 
 ___________________________________________________________________________________________________
 

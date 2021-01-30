@@ -1,7 +1,7 @@
 
 <p style="text-align:center"><img src="img/banner.jpg" alt="Banner"/></p>
 
-This guide will walk you through RBF Drivers, an add-on for
+This guide will walk you through RBF Drivers, an addon for
 <a href="https://www.blender.org" target="_blank">Blender</a>
 that enables you to quickly and easily create advanced drivers that use 
 <a href="https://en.wikipedia.org/wiki/Radial_basis_function_network" target="_blank">radial basis function networks</a>.

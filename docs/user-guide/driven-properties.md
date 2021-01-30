@@ -13,9 +13,7 @@ ________________________________________________________________________________
 
 <p style="text-align:center"><img src="../../img/drivenprop_type.jpg" alt="Driven property types"/></p>
 
-Much like
-<a href="https://docs.blender.org/manual/en/latest/animation/drivers/drivers_panel.html#driver-variables" target="_blank">
-Blender's driver variables</a>, you can select from either **Single Property** or **Transform Channel**.
+You can select from either **Single Property**, **Transform Channel** or **Shape Key**.
 You can also provide a useful name for the property to help you keep track of things.
 
 ### Single Property

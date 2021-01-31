@@ -11,7 +11,7 @@ ________________________________________________________________________________
 
 Each of the available interpolation types will change how closely the
 [driven properties](../driven-properties) stick to the [poses](../poses)
-you have defined, as well as how smoothly and quickly they transition between then. You don't
+you have defined, as well as how smoothly and quickly they transition between them. You don't
 need to know how each of them works, you can simply select which one works best for you by
 switching between them and playing around in the viewport.
 

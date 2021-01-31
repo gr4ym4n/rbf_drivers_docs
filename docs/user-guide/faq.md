@@ -64,9 +64,8 @@ be used sparingly.
 Because RBF driver consolidates everything down to native Blender drivers, it needs to fit certain
 calculations into driver expressions, which are limited within Blender to having a maximum length
 of 256 characters. RBF Drivers do their very best to pack as much as possible into an expression
-by reducing floating-point precision (according to your [settings](../rbf-settings)) and
-storing values in properties and referencing them with variables where necessary. Nevertheless,
-eventually these expressions can grow beyond the aforementioned limits, in the unlikely event that
+by storing values in properties and referencing them with variables where necessary. Nevertheless,
+eventually these expressions can grow beyond the aforementioned limits. In the unlikely event that
 this happens the RBF driver will fail to update and you will be notified that an expression is too
 long. In this case you will need to reduce the number of poses and update again. This being said,
 part of the beauty of RBF drivers is that you rarely need more than a few poses to achieve a great
@@ -80,7 +79,7 @@ ________________________________________________________________________________
 
 The primary use-cases for RBF drivers are in rigging and character animation. Although other uses
 are possible, they can invariably be supported simply by creating a bone where you might otherwise
-use an empty, or giving the object an armature.
+use an empty, or parenting an object to a bone.
 
 ### Why can I only use transform properties as inputs?
 

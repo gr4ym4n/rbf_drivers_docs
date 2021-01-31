@@ -14,6 +14,7 @@ nav:
     - Inputs: user-guide/inputs.md
     - Driven Properties: user-guide/driven-properties.md
     - Poses: user-guide/poses.md
+    - Using X-Mirror: user-guide/using-x-mirror.md
     - FAQ: user-guide/faq.md
     - Getting Help: user-guide/getting-help.md
     - Releases: user-guide/releases.md

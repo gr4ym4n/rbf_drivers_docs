@@ -6,10 +6,10 @@ alternatively use the [Discord support server](https://discord.gg/y6jTAURSj2).
 ## Bugs
 
 RBF Drivers is tested on each and every release, but 3D software is complicated and from time to
-time bugs arise. If you think you hvae found one, get in touch so it can be resolved, but before
+time bugs arise. If you think you have found one, get in touch so it can be resolved, but before
 doing so please ensure that the cause of the problem lies with RBF Drivers and not elsewhere.
 
-If you're able to provide a file containing the issue, or one that illustrates it, as well as a
+If you're able, please provide a file containing the issue, or one that illustrates it, as well as a
 description.
 
 ## Suggestions

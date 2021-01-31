@@ -13,8 +13,9 @@ ________________________________________________________________________________
 
 <p style="text-align:center"><img src="../../img/drivenprop_type.jpg" alt="Driven property types"/></p>
 
-You can select from either **Single Property**, **Transform Channel** or **Shape Key**.
-You can also provide a useful name for the property to help you keep track of things.
+You can select from either **Single Property**, **Transform Channel** or **Shape Key**, depending
+on what type of property you wish to drive. You can also provide a useful name for the property and
+move it up or down within the stack to help you keep track of things.
 
 ### Single Property
 
@@ -29,6 +30,13 @@ context menu.
 If the data path is incorrect, or the property cannot be driven, the path will be highlighted in
 red.
 
+!!! Note
+    When using the **Copy Data Path** option from the context menu, the data path that is copied to
+    the clipboard will not include the array index for array-like Blender properties. It is
+    sometimes necessary to append it to the path yourself. For example, if you wanted to drive the
+    delta location x of an object, the data path given by Blender will be 'delta_location', whereas
+    you will want to set the driven property's data path to 'delta_transform[0]'
+
 ### Transform Channel
 
 <p style="text-align:center"><img src="../../img/drivenprop_xformchan.jpg" alt="Driven property transform channel type"/></p>
@@ -40,7 +48,7 @@ is selected the transform channel on the object itself will be driven.
 !!! Note
     **Transform Channel** properties are really just a convenience. Driving the X Location channel
     of an object is entirely equivalent to creating a **Single Property** for the "location[0]"
-    path. 
+    path.
 
 !!! Note
     Unlike [inputs](../inputs#rotation-modes), the rotation modes available for driving
@@ -49,3 +57,17 @@ is selected the transform channel on the object itself will be driven.
     driven property should almost always correspond to the rotatation mode of the object or bone
     being driven. When you select an object or bone, the correct rotation mode will be set for you
     automatically.
+
+### Shape Key
+
+<p style="text-align:center"><img src="../../img/drivenprop_shapekey.jpg" alt="Driven property shape key channel type"/></p>
+
+Selecting **Shape Key** from the dropdown menu allows you can set a mesh object and choose from
+the shape keys defined for that mesh. If you have a valid shape key selected, you can also adjust
+the value of the shape key directly from the driven property pane so you don't have to switch back
+and forth between the rig and mesh while setting [poses](../poses).
+
+!!! Note
+    It is preferred to use a driven **Shape Key** property rather than manually adding the path for
+    the shape key's value to a **Single Property**. While the latter will correctly drive the value,
+    the shape key's value property will not show as being driven in the UI (highlighted in purple).

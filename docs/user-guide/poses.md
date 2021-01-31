@@ -34,7 +34,7 @@ and the RBF driver will be automatically recalculated.
 
 ___________________________________________________________________________________________________
 
-## Viewing and Updating poses
+## Viewing and Updating Poses
 
 <p style="text-align:center"><img src="../../img/poses_panel_viewapply.jpg" alt="View/apply pose buttons"/></p>
 

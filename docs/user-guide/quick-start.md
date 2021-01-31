@@ -40,9 +40,9 @@ create a new RBF driver.
 
 !!! Note
     You might notice that the RBF driver we just created is highlighted in red. This is just to let
-    you know that it's not yet operational because we haven't defined any
+    you know that it's not yet functional because we haven't defined any
     [inputs](../inputs), [driven properties](../driven-properties) or
-    [poses](../poses) yet. We're going to fix that next.
+    [poses](../poses). We're going to fix that next.
 
 ___________________________________________________________________________________________________
 
@@ -110,7 +110,7 @@ ________________________________________________________________________________
 ## Activating the RBF Driver
 
 By default our RBF Driver will be disabled because we want the driven properties to remain under
-our control while we set up our poses. To enable them, check the box next to the driver in
+our control while we set up our poses. To enable it, check the box next to the driver in
 the list.
 
 <p style="text-align:center">

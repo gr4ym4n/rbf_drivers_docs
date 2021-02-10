@@ -81,6 +81,11 @@ ________________________________________________________________________________
 
 ## Smoothing
 
+!!! Warning
+    The smoothing parameter has been deprecated and will be removed from a future version of
+    RBF Drivers. The effect of the parameter has proven too dependant on too many other variables
+    and has proved more confusing than helpful.
+
 <p style="text-align:center"><img src="../../img/rbfsettings.jpg" alt="Smoothing setting"/></p>
 
 Increasing the smoothing value will relax the fit of the

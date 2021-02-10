@@ -9,6 +9,24 @@ RBF driver. You can add almost any property of any object here.
 
 ___________________________________________________________________________________________________
 
+## Adding Driven Properties
+
+<p style="text-align:center"><img src="../../img/drivenprop_add.jpg" alt="Adding Driven properties"/></p>
+
+Clicking the **Add** button in the **Driven Properties** pane will display a menu from which you
+can select what type of property or properties you wish to drive.
+
+Selecting **Single Property** will simply add a new driven property into the list. Selecting either
+**Transforms** or **Shape Keys** will open a dialog box where you can choose an object (and
+optionally a bone) and select one or more properties to add in one go.
+
+<p style="text-align:center">
+    <img src="../../img/drivenprop_add_transforms.jpg" alt="Add Transforms Popup"/>
+    <img src="../../img/drivenprop_add_shape_keys.jpg" alt="Add Shape Keys Popup"/>
+</p>
+
+___________________________________________________________________________________________________
+
 ## Driven Property Types
 
 <p style="text-align:center"><img src="../../img/drivenprop_type.jpg" alt="Driven property types"/></p>

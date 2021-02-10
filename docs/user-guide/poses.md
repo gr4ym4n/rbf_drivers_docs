@@ -19,7 +19,7 @@ out the in-between bits for you, so that behaviors and animations are smooth and
 
 ___________________________________________________________________________________________________
 
-## Adding and removing poses
+## Adding and Removing Poses
 
 <p style="text-align:center"><img src="../../img/poses_panel_addremove.jpg" alt="Add/remove pose buttons"/></p>
 
@@ -42,8 +42,15 @@ It's sometimes helpful to review the poses you have already defined, and optiona
 Clicking the apply button will apply the selected pose to the scene. You can then make changes,
 and if you wish, overwrite the selected pose by clicking the update button.
 
+!!! Note
+    If the RBF driver is [enabled](../managing-drivers#enabling-and-disabling-drivers) then
+    applying the pose will not necessarily show the exact pose you defined, instead you will see
+    how it will be when driven, taking into account the interpolation, weight and effect settings.
+    When the RBF driver is [disabled](../managing-drivers#enabling-and-disabling-drivers) you will
+    see the exact pose without the effect of the interpolation, weight or effect settings.
+
 If you want to manually edit the selected pose, clicking the edit button will bring up a dialog box
-with the saved values the pose. Once you confirm your changes the pose will be updated.
+with the saved values for the pose. Once you confirm your changes the pose will be updated.
 
 <p style="text-align:center"><img src="../../img/poses_panel_edit.jpg" alt="Edit pose dialog"/></p>
 
@@ -56,3 +63,47 @@ ________________________________________________________________________________
 The poses list follows the typical Blender interface, so you can move poses up or down with the
 list using the move up/down buttons. The RBF driver operates irrespective of the order of poses,
 but it can be useful to order the poses in a way that makes sense for you.
+
+___________________________________________________________________________________________________
+
+## Advanced Pose Options
+
+<p style="text-align:center"><img src="../../img/poses_panel_advancedoptions.jpg" alt="Advanced pose options"/></p>
+
+### Pose Weight
+
+Each pose has a **weight** value displayed below the list of poses. The **weight** value can be
+adjusted using the slider. With a value of 1.0 (the default) the pose will be fully considered by
+the RBF driver, with a value of 0.0 it will effectively be ignored, as if it did not exist.
+
+!!! Note
+    The **weight** that you set for a pose is used to modify the internal weight that the RBF
+    driver is calculating for it. This means that there will be a gradual falloff or easing as
+    the pose weight is reduced which will be dependant on the pose values and interpolation
+    settings.
+
+The weight of a pose can be useful for temporarily visualizing the effect a pose is having on the
+driven properties, or for fine tuning the contribution of particular poses, but it also offers a
+lot of advanced possibilities due to the fact that it can itself be driven.
+
+You could for example add a vanilla driver to the weight value of a pose and use the bezier curve or
+modifier options to ease a pose in or out, or control it from the value of some other property or
+properties. You could even drive it with another RBF driver!
+
+### Pose Effect
+
+In addition to a **weight**, each pose also has an **effect** parameter, also situated below the
+list of poses. Whereas the **weight** of a pose affects its contribution to the final driven
+property values, the **effect** directly modifies the final driven property values.
+
+Let's say you that you've set things up so that at **Pose 1**, the rotation of **Arm.L** is 90
+degrees in the X axis. If you set the **effect** of **Pose 1** to be 0.5, **Arm.L**
+will now be rotated to 45 degrees at that pose.
+
+You can use the **effect** parameter to simply fine-tune poses after they have already been set up,
+but you could just as well update or edit the actual pose values instead. The real power comes with
+the fact that, like the **weight** parameter, the **effect** can itself be driven.
+
+!!! Note
+    The slider for the **effect** value goes from 0.0 to 1.0 as you would normally want to modify
+    it within this range, but the parameter itself can be changed or driven outside of this range.

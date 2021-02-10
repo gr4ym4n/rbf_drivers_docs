@@ -31,8 +31,7 @@ in the viewport.
 
 <p style="text-align:center"><img src="../../img/quickstart_003.jpg" alt="Quick start scene setup 3"/></p>
 
-Now select the **Bone Properties** panel, find the **RBF Drivers** section and click **Add** to
-create a new RBF driver.
+Now select the **Bone Properties** panel, find the **RBF Drivers** section, click **Add** and select **New** from the menu to create an RBF driver.
 
 <p style="text-align:center"><img src="../../img/quickstart_004.jpg" alt="Quick start scene setup 4"/></p>
 
@@ -60,18 +59,18 @@ ________________________________________________________________________________
 
 Now we're going to add driven properties for each of the cube's transform channels.
 
-* Click the **Add** button at the top of the **Driven Properties** section of the RBF Driver panel to
-  create a new driven property.
-* Change the driven property type to **Transform Channel** using the dropdown menu next to the driven
-  property's name.
-* Select the *Cube* from the *Object* field, and set the *Type* to *X Location* (it will probably
-  be set as such by default)
-
-Repeat the above steps for *Y Location*, *Z Location*, *X Rotation*, *Y Rotation*, *Z Rotation*, 
-*X Scale*, *Y Scale*, and finally *Z Scale*. The Driven Properties panel should look like the image
-below.
+Click the **Add** button at the top of the **Driven Properties** section and select **Transforms**
+from the menu.
 
 <p style="text-align:center"><img src="../../img/quickstart_006.jpg" alt="Quick start scene setup 6" width=400/></p>
+
+Select the *Cube* from the *Object* field and check all the boxes
+
+<p style="text-align:center"><img src="../../img/quickstart_006a.jpg" alt="Quick start scene setup 6" width=400/></p>
+
+Once your done your driven properties should look something like the image below
+
+<p style="text-align:center"><img src="../../img/quickstart_006b.jpg" alt="Quick start scene setup 6" width=400/></p>
 
 ___________________________________________________________________________________________________
 
